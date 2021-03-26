@@ -60,10 +60,6 @@ If you **really** like this repository and find it useful, please consider (★)
 # Contributing to PyQosic
 If you find a bug, create a GitHub issue, or even better, submit a pull request. Similarly, if you have questions, simply post them as GitHub issues. 
 
-# Current team
-
-#### [Philipp Lang] and [Raphael Kronberg] @ Department of Molecular Medicine II, Medical Faculty, Heinrich-Heine-University, Universitätsstr. 1, 40225 Düsseldorf, Germany
-
 # License , citation and acknowledgements
 Please advice the **LICENSE.md** file. For usage of third party libraries and repositories please advise the respective distributed terms. Please cite our paper, when using this code:
 
