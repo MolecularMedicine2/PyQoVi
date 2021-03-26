@@ -1,0 +1,6 @@
+numpy
+matplotlib
+-f https://download.pytorch.org/whl/nightly/cu110/torch_nightly.html
+torch
+torchvision
+torchaudio
