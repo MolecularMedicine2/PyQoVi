@@ -193,7 +193,6 @@ class Trainer():
         '''
         (Re-)training the model
         '''
-        print(__status__, '\n', __credits__)
         since = time.time()
         val_acc_history = []
         best_model_wts = copy.deepcopy(self.model_ft.state_dict())
@@ -716,7 +715,6 @@ class Trainer():
 
     def inference_folder(self):
         ''' analyze a folder of pictures '''
-        print(__status__, '\n', __credits__)
         self.reload_model()
         file_list = []
         with open('results/result_{}_{}.csv'.format(self.result_file_name, self.datestr()), 'w', newline='') as csvfile:
