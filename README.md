@@ -1,4 +1,4 @@
-### PyQosic -Quantification of SARS-CoV-2 induced CPE
+### PyQoVi -Quantification of SARS-CoV-2 induced CPE
 Based on the Paper: Deep Transfer Learning approach for automatic recognition of drug toxicity and inhibition of SARS-CoV-2 <br>
 Data are avaible at: <br>
 Implemented in Python using the PyTorch Framework<br>
