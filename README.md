@@ -69,7 +69,9 @@ Please advice the **LICENSE.md** file. For usage of third party libraries and re
 
 ```
 @article{WernerKronberg2021,
-    author = {Werner J., Kronberg R. et al.},
+    author = {Julia Werner, Raphael M. Kronberg, Pawel Stachura, Philipp N.
+                Ostermann, Lisa Müller, Heiner Schaal, Sanil Bhatia, Jakob N. Kather, Arndt
+                    Borkhardt, Aleksandra A. Pandyra, Karl S. Lang, Philipp A. Lang },
     title = {Deep Transfer Learning approach for automatic recognition of drug toxicity and inhibition of SARS-CoV-2},
     journal = {Viruses},
     year = {2021},
