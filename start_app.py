@@ -77,7 +77,7 @@ def close_app():
     app_gui.destroy()
 
 app_gui = tk.Tk()
-app_gui.title('PyQosic: Quantification of SARS-CoV-2 induced CPE')
+app_gui.title('PyQoVi: Quantification of Virus in images')
 T = tk.Text(app_gui, height=1, width=15)
 T.pack()
 T.insert(tk.END, "Please choose:")
