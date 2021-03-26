@@ -30,6 +30,11 @@ Inference: Inference: Enter a name for the resultfile (result_file_name). Load a
 <br>
 <br>
 # How to Use Guide CMD (ATM Windows Only)
+First adjust the paths in the parameter_holder.py <br>
+-file_path_train='./data/cpetox', Path to you Data (with subfolders train, test, val) and for this subfolders for the different classes<br>
+-folder_path='./data/inference', Path tho Folder with images you want classify <br>
+-reload_path='./saved_models/train_model_resnet_19_02___22_15_36.pth', Path to the trained model <br>
+<br>
 1.Step: Load the TrainingValidationTest dataset for train by using the train_public.py function (run in your IDE or cmd) or the download a pretrained model from.... <br>
 <img src="/images/cmdTrain.PNG" alt="cmdTrain" title="cmdTrain" /> <br>
 Add Link <br>
