@@ -51,7 +51,7 @@ def get_arguments(arg_dict):
     parser = argparse.ArgumentParser()
     for ent in arg_dict.keys():
         parser.add_argument('--{}'.format(ent), type=type(arg_dict[ent]), default=arg_dict[ent])
-    args = parser.parse_args("")
+    args = parser.parse_args() #if using on jupyterHub "" 
     print(args)
     return args
 
