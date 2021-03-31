@@ -1,6 +1,6 @@
 ### PyQoVi - Quantification of Virus in images
 Based on the Paper: Deep Transfer Learning approach for automatic recognition of drug toxicity and inhibition of SARS-CoV-2 <br>
-Data are avaible at: <br>
+Data are avaible at: https://uni-duesseldorf.sciebo.de/s/bJSSMnhCNEFUosN <br>
 Implemented in Python using the PyTorch Framework<br>
 We provide the code to be able to analyse different active substances automatically and quickly on the basis of the imaging. Due to the topicality of the epidemic, we provide a solution here. 
 <br>
