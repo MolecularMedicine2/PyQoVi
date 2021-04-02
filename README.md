@@ -1,5 +1,5 @@
 ### PyQoVi - Quantification of Virus in images
-Based on the Paper: Deep Transfer Learning approach for automatic recognition of drug toxicity and inhibition of SARS-CoV-2 <br>
+Based on the Paper: Deep Transfer Learning approach for automatic recognition of drug toxicity and inhibition of SARS-CoV-2  https://doi.org/10.3390/v13040610 <br>
 Data are avaible at: https://uni-duesseldorf.sciebo.de/s/bJSSMnhCNEFUosN <br>
 Implemented in Python using the PyTorch Framework<br>
 We provide the code to be able to analyse different active substances automatically and quickly on the basis of the imaging. Due to the topicality of the epidemic, we provide a solution here. 
@@ -65,7 +65,9 @@ Please advice the **LICENSE.md** file. For usage of third party libraries and re
 
 ```
 @Article{v13040610,
-AUTHOR = {Werner, Julia and Kronberg, Raphael M. and Stachura, Pawel and Ostermann, Philipp N. and Müller, Lisa and Schaal, Heiner and Bhatia, Sanil and Kather, Jakob N. and Borkhardt, Arndt and Pandyra, Aleksandra A. and Lang, Karl S. and Lang, Philipp A.},
+AUTHOR = {Werner, Julia and Kronberg, Raphael M. and Stachura, Pawel and Ostermann, Philipp N. and Müller, Lisa and Schaal,
+          Heiner and Bhatia, Sanil and Kather, Jakob N. and Borkhardt, Arndt and Pandyra, Aleksandra A. and Lang,
+          Karl S. and Lang, Philipp A.},
 TITLE = {Deep Transfer Learning Approach for Automatic Recognition of Drug Toxicity and Inhibition of SARS-CoV-2},
 JOURNAL = {Viruses},
 VOLUME = {13},
@@ -74,7 +76,17 @@ NUMBER = {4},
 ARTICLE-NUMBER = {610},
 URL = {https://www.mdpi.com/1999-4915/13/4/610},
 ISSN = {1999-4915},
-ABSTRACT = {Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) causes COVID-19 and is responsible for the ongoing pandemic. Screening of potential antiviral drugs against SARS-CoV-2 depend on in vitro experiments, which are based on the quantification of the virus titer. Here, we used virus-induced cytopathic effects (CPE) in brightfield microscopy of SARS-CoV-2-infected monolayers to quantify the virus titer. Images were classified using deep transfer learning (DTL) that fine-tune the last layers of a pre-trained Resnet18 (ImageNet). To exclude toxic concentrations of potential drugs, the network was expanded to include a toxic score (TOX) that detected cell death (CPETOXnet). With this analytic tool, the inhibitory effects of chloroquine, hydroxychloroquine, remdesivir, and emetine were validated. Taken together we developed a simple method and provided open access implementation to quantify SARS-CoV-2 titers and drug toxicity in experimental settings, which may be adaptable to assays with other viruses. The quantification of virus titers from brightfield images could accelerate the experimental approach for antiviral testing.},
+ABSTRACT = {Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) causes COVID-19 and is responsible for the ongoing
+            pandemic. Screening of potential antiviral drugs against SARS-CoV-2 depend on in vitro experiments, which are
+            based on the quantification of the virus titer. Here, we used virus-induced cytopathic effects (CPE) in 
+            brightfield microscopy of SARS-CoV-2-infected monolayers to quantify the virus titer. Images were classified
+            using deep transfer learning (DTL) that fine-tune the last layers of a pretrained Resnet18 (ImageNet). 
+            To exclude toxic concentrations of potential drugs, the network was expanded to include a toxic score (TOX)
+            that detected cell death (CPETOXnet).With this analytic tool, the inhibitory effects of chloroquine,
+            hydroxychloroquine,remdesivir, and emetine were validated. Taken together we developed a simple method and
+            provided open access implementation to quantify SARS-CoV-2 titers and drug toxicity in experimental settings,
+            which may be adaptable to assays with other viruses. The quantification of virus titers from brightfield 
+            images could accelerate the experimental approach for antiviral testing.},
 DOI = {10.3390/v13040610}
 }
 
