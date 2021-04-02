@@ -64,15 +64,20 @@ If you find a bug, create a GitHub issue, or even better, submit a pull request.
 Please advice the **LICENSE.md** file. For usage of third party libraries and repositories please advise the respective distributed terms. Please cite our paper, when using this code:
 
 ```
-@article{WernerKronberg2021,
-    author = {Julia Werner, Raphael M. Kronberg, Pawel Stachura, Philipp N.
-                Ostermann, Lisa Müller, Heiner Schaal, Sanil Bhatia, Jakob N. Kather, Arndt
-                    Borkhardt, Aleksandra A. Pandyra, Karl S. Lang, Philipp A. Lang },
-    title = {Deep Transfer Learning approach for automatic recognition of drug toxicity and inhibition of SARS-CoV-2},
-    journal = {Viruses},
-    year = {2021},
-    url = {https://github.com/MolecularMedicine2/PyQoVi},
+@Article{v13040610,
+AUTHOR = {Werner, Julia and Kronberg, Raphael M. and Stachura, Pawel and Ostermann, Philipp N. and Müller, Lisa and Schaal, Heiner and Bhatia, Sanil and Kather, Jakob N. and Borkhardt, Arndt and Pandyra, Aleksandra A. and Lang, Karl S. and Lang, Philipp A.},
+TITLE = {Deep Transfer Learning Approach for Automatic Recognition of Drug Toxicity and Inhibition of SARS-CoV-2},
+JOURNAL = {Viruses},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {4},
+ARTICLE-NUMBER = {610},
+URL = {https://www.mdpi.com/1999-4915/13/4/610},
+ISSN = {1999-4915},
+ABSTRACT = {Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) causes COVID-19 and is responsible for the ongoing pandemic. Screening of potential antiviral drugs against SARS-CoV-2 depend on in vitro experiments, which are based on the quantification of the virus titer. Here, we used virus-induced cytopathic effects (CPE) in brightfield microscopy of SARS-CoV-2-infected monolayers to quantify the virus titer. Images were classified using deep transfer learning (DTL) that fine-tune the last layers of a pre-trained Resnet18 (ImageNet). To exclude toxic concentrations of potential drugs, the network was expanded to include a toxic score (TOX) that detected cell death (CPETOXnet). With this analytic tool, the inhibitory effects of chloroquine, hydroxychloroquine, remdesivir, and emetine were validated. Taken together we developed a simple method and provided open access implementation to quantify SARS-CoV-2 titers and drug toxicity in experimental settings, which may be adaptable to assays with other viruses. The quantification of virus titers from brightfield images could accelerate the experimental approach for antiviral testing.},
+DOI = {10.3390/v13040610}
 }
+
 ```
 ## Acknowledgements
 Implementation is based on the https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html.
