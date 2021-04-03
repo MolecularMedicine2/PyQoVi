@@ -336,7 +336,7 @@ class Trainer():
             """
             self.model_ft = models.alexnet(pretrained=self.use_pretrained)
             self.set_parameter_requires_grad()
-            num_ftrs = model_ft.classifier[6].in_features
+            num_ftrs = self.model_ft.classifier[6].in_features
             self.model_ft.classifier[6] = nn.Linear(num_ftrs, self.num_classes)
             self.input_size = 224
 
@@ -345,7 +345,7 @@ class Trainer():
             """
             self.model_ft = models.vgg11_bn(pretrained=self.use_pretrained)
             self.set_parameter_requires_grad()
-            num_ftrs = model_ft.classifier[6].in_features
+            num_ftrs = self.model_ft.classifier[6].in_features
             self.model_ft.classifier[6] = nn.Linear(num_ftrs, self.num_classes)
             self.input_size = 224
 
@@ -363,7 +363,7 @@ class Trainer():
             """
             self.model_ft = models.densenet121(pretrained=self.use_pretrained)
             self.set_parameter_requires_grad()
-            num_ftrs = model_ft.classifier.in_features
+            num_ftrs = self.model_ft.classifier.in_features
             self.model_ft.classifier = nn.Linear(num_ftrs, self.num_classes)
             self.input_size = 224
 
@@ -374,10 +374,10 @@ class Trainer():
             self.model_ft = models.inception_v3(pretrained=self.use_pretrained)
             self.set_parameter_requires_grad()
             # Handle the auxilary net
-            num_ftrs = model_ft.AuxLogits.fc.in_features
+            num_ftrs = self.model_ft.AuxLogits.fc.in_features
             self.model_ft.AuxLogits.fc = nn.Linear(num_ftrs, self.num_classes)
             # Handle the primary net
-            num_ftrs = model_ft.fc.in_features
+            num_ftrs = self.model_ft.fc.in_features
             self.model_ft.fc = nn.Linear(num_ftrs, self.num_classes)
             self.input_size = 299
 
